@@ -5,7 +5,7 @@ InfluxDB is an open-source database for storing time series data. This data can 
 
 | ![kenet1](/img/block2.PNG) | 
 |:--:| 
-| *River Water level Data Aquisition Block Diagram showing the Integration of a Kenet - Influx Virtual Machine* |
+| *Figure 1: River Water level Data Aquisition Block Diagram showing the Integration of a Kenet - Influx Virtual Machine* |
 
 ## Pre-Requisites / Requirements
 - Kenet Vlab access to create a virtual machine (Linux machine) = The access is provided by Kenet after verifying your Vlab access request. Also, a verified user can create a machine that can be accessed by a non-verified user via  **[Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)**.
