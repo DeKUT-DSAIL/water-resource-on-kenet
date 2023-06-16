@@ -37,10 +37,10 @@ Figure 2 shows putty configuration.
 
 After clicking on *open* the user is prompted to accept the access conditions and the terminal appears. At this point, the user has to paste in the password to enable the command line and also to enable root utilization (sudo su). (NB. To paste on putty = Right click). Figure 3 and Figure 4 shows the process.
 
-| ![putty3](/img/putty3.PNG) | 
+| ![putty3](/img/putty33.JPG) | 
 |:--:| 
 | *Figure 3: After clicking open* |
 
-| ![putty4](/img/putty4.PNG) | 
+| ![putty4](/img/putty44.JPG) | 
 |:--:| 
 | *Figure 4: After keying in the password and running **sudo su** to enable root* |
