@@ -44,3 +44,28 @@ After clicking on *open* the user is prompted to accept the access conditions an
 | ![putty4](/img/putty44.jpg) | 
 |:--:| 
 | *Figure 4: After keying in the password and running **sudo su** to enable root* |
+
+## Installing InfluxDB on the Linux machine
+
+To installing influxdb, run the following commands sequentially 
+
+1. `curl -sL https://repos.influxdata.com/influxdb.key | sudo apt-key add -`
+
+2. `echo "deb https://repos.influxdata.com/ubuntu trusty stable" | sudo tee /etc/apt/sources.list.d/influxdb.list`
+
+| ![putty5](/img/putty55.jpg) | 
+|:--:| 
+| *Figure 5: Step 1 and 2 output* |
+
+3. `apt update`
+
+4. `apt install influxdb influxdb-client python3-influxdb`
+
+5. `systemctl enable influxdb`
+
+6. `systemctl start influxdb`
+
+In order to check if the installation went well, you can use the client to execute a basic Influxdb query as shown on Figure 6.
+
+
+
