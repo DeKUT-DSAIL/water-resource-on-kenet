@@ -30,3 +30,17 @@ To access the machine via SSH, a user can utilize putty.
 3. `To load the session, select it and click on *load* and then *open* to access the terminal.` 
 
 Figure 2 shows putty configuration.
+
+| ![putty2](/img/putty2.PNG) | 
+|:--:| 
+| *Figure 2: Putty Configuration* |
+
+After clicking on *open* the user is prompted to accept the access conditions and the terminal appears. At this point, the user has to paste in the password to enable the command line and also to enable root utilization (sudo su). (NB. To paste on putty = Right click). Figure 3 and Figure 4 shows the process.
+
+| ![putty3](/img/putty3.PNG) | 
+|:--:| 
+| *Figure 3: After clicking open* |
+
+| ![putty4](/img/putty4.PNG) | 
+|:--:| 
+| *Figure 4: After keying in the password and running **sudo su** to enable root* |
