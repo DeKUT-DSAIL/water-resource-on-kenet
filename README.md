@@ -47,7 +47,7 @@ After clicking on *open* the user is prompted to accept the access conditions an
 
 ## Installing InfluxDB on the Linux machine
 
-To installing influxdb, run the following commands sequentially 
+To install influxdb, run the following commands sequentially 
 
 1. `curl -sL https://repos.influxdata.com/influxdb.key | sudo apt-key add -`
 
