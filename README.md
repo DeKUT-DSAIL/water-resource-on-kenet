@@ -37,11 +37,11 @@ Figure 2 shows putty configuration.
 
 After clicking on *open* the user is prompted to accept the access conditions and the terminal appears. At this point, the user has to paste in the password to enable the command line and also to enable root utilization (sudo su). (NB. To paste on putty = Right click). Figure 3 and Figure 4 shows the process.
 
-| ![putty3](/img/putty33.jpg) | 
+| ![putty3](/img/putty3.jpg) | 
 |:--:| 
 | *Figure 3: After clicking open* |
 
-| ![putty4](/img/putty44.jpg) | 
+| ![putty4](/img/putty4.jpg) | 
 |:--:| 
 | *Figure 4: After keying in the password and running **sudo su** to enable root* |
 
@@ -53,7 +53,7 @@ To install influxdb, run the following commands sequentially
 
 2. `echo "deb https://repos.influxdata.com/ubuntu trusty stable" | sudo tee /etc/apt/sources.list.d/influxdb.list`
 
-| ![putty5](/img/putty55.jpg) | 
+| ![putty5](/img/putty5.jpg) | 
 |:--:| 
 | *Figure 5: Step 1 and 2 output* |
 
