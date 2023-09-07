@@ -2,7 +2,7 @@
 
 ## Introduction
 
-InfluxDB is an open-source database for storing time series data. This data can come from logging and monitoring systems or from IOT (Internet of Things) devices. KENET, Kenya Education Network, is Kenya's National Research and Education Network. It serves education and research institutions in Kenya by providing internet connectivity, cloud services(processing and storage) and research grants. Highlighted in this repository is a procedure on how to setup an InfluxDB database on a kenet server that in turn stores data from IoT sensor nodes. Figure.1 is a block diagram that highlights the entire system. 
+<p align="justify">InfluxDB is an open-source database for storing time series data. This data can come from logging and monitoring systems or from IOT (Internet of Things) devices. KENET, Kenya Education Network, is Kenya's National Research and Education Network. It serves education and research institutions in Kenya by providing internet connectivity, cloud services(processing and storage) and research grants. Highlighted in this repository is a procedure on how to setup an InfluxDB database on a kenet server that in turn stores data from IoT sensor nodes. Figure.1 is a block diagram that highlights the entire system.</p> 
 
 | ![kenet1](/img/block2.PNG) | 
 |:--:| 
@@ -76,7 +76,7 @@ In order to check if the installation went well, you can use the InfluxDB client
 |:--:| 
 | *Figure 6: Testing the InfluxDB client by running the influx command* |
 
-<p align="justify">As shown on Figure 6 the InfluxDB client is up and running. The only database present at this point is the Default: `internal` database. To exit the Influx shell type `exit`</p>
+<p align="justify">As shown on Figure 6 the InfluxDB client is up and running. The only database present at this point is the Default: "internal" database. To exit the Influx shell type "exit"</p>
 
 ## Data Transfer from TTN (The Things Network)/(The Things Stack).
 <p align="justify"> To transfer the Water level data from The Things Network to an InfluxDB databases on the Kenet server as shown on Figure 1, we need to run the `ttn-kenet.py` Python Script under assets. The script execution procedure includes.
@@ -84,11 +84,11 @@ In order to check if the installation went well, you can use the InfluxDB client
 - Creation of an environment with the packages needed to run the script (`requirements.txt` under assets).</p>
 
 ### The Things Network
-<p align="justify"> An IoT (Internet of Things) system can be broadly divided into 3 main layers. The first layer is the perception layer which includes sensors and actuators involved in data collection. The second layer is the network layer which is responsible for communication between devices in the system. The network layer includes elements such as gateways and network servers. The last layer is the application layer, where an end user gets to interact with data output.
+<p align="justify"> An IoT (Internet of Things) system can be broadly divided into 3 main layers. The first layer is the perception layer which includes sensors and actuators involved in data collection. The second layer is the network layer which is responsible for communication between devices in the system. The network layer includes elements such as gateways and network servers. The last layer is the application layer, where an end user gets to interact with data output.</p>
 
-The network server under the network layer is a crucial component in a deployment scenario. The network server is a central element and is in charge of management of gateways, the authorization of end nodes and the exchange of data (uplink and downlink) between the sensor node and the user application.
+<p align="justify">The network server under the network layer is a crucial component in a deployment scenario. The network server is a central element and is in charge of management of gateways, the authorization of end nodes and the exchange of data (uplink and downlink) between the sensor node and the user application.</p>
 
-The Things Network is a free LoRaWAN network server that is open to all. It has popularized the LoRaWAN technology by offering free services to IoT enthusiasts especially during initial tests before professional deployments.</p>
+<p align="justify">The Things Network is a free LoRaWAN network server that is open to all. It has popularized the LoRaWAN technology by offering free services to IoT enthusiasts especially during initial tests before professional deployments.</p>
 
 ### Data Rerouting from TNN 
 <p align="justify"> To transfer data from TTN to another storage service using MQTT, a Data API is utilized. As an MQTT broker, The Things Stack exposes an MQTT to work with streaming events (data from the sensor nodes). Established in 1999, the MQTT is a machine to machine, lightweight, publish/subscribe connectivity protocol for massage queuing service. It is mainly designed for connections with remote locations that have devices with resource constraints such as power or limited network bandwidth such as IoT (Internet of Things). On The Things stack, every application TTS automatically exposes an MQTT endpoint. In order to connect to the MQTT server, an API key that functions as a password is needed. Figure 7 shows the MQTT page on TTN. </p>
