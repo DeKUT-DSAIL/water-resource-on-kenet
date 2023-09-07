@@ -1,6 +1,6 @@
 # Setting up a Kenet-InfluxDB Instance for IoT Timeseries Data
 
-## Introduction
+## 1. Introduction
 
 <p align="justify">InfluxDB is an open-source database for storing time series data. This data can come from logging and monitoring systems or from IOT (Internet of Things) devices. KENET, Kenya Education Network, is Kenya's National Research and Education Network. It serves education and research institutions in Kenya by providing internet connectivity, cloud services(processing and storage) and research grants. Highlighted in this repository is a procedure on how to setup an InfluxDB database on a kenet server that in turn stores data from IoT sensor nodes. Figure.1 is a block diagram that highlights the entire system.</p> 
 
@@ -8,13 +8,13 @@
 |:--:| 
 | *Figure 1: River Water level Data Aquisition Block Diagram showing the Integration of a Kenet - Influx Virtual Machine* |
 
-## Pre-Requisites / Requirements
+## 2. Pre-Requisites / Requirements
 
 - Kenet Vlab access to create a virtual machine (Linux machine) = The access is provided by Kenet after verifying your Vlab access request. Also, a verified user can create a machine that can be accessed by a non-verified user via  **[Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)**.
 - Putty = On your personal computer to access the virtual machine command line (SSH).
 - preferred Linux Distributtion = Ubuntu 16.04.7 LTS
 
-## Accessing the Kenet Virtual Machine
+## 3. Accessing the Kenet Virtual Machine
 
 To access a Kenet virtual machine, a user is provided with 2 access tools to use on Putty.
 
@@ -46,7 +46,7 @@ Figure 2 shows putty configuration.
 |:--:| 
 | *Figure 4: After keying in the password and running **sudo su** to enable root* |
 
-## Installing InfluxDB on the Linux machine
+## 4. Installing InfluxDB on the Linux machine
 
 To install influxdb, run the following commands sequentially 
 
@@ -78,10 +78,10 @@ In order to check if the installation went well, you can use the InfluxDB client
 
 <p align="justify">As shown on Figure 6 the InfluxDB client is up and running. The only database present at this point is the Default: "internal" database. To exit the Influx shell type "exit"</p>
 
-## Data Transfer from TTN (The Things Network)/(The Things Stack).
+## 5. Data Transfer from TTN (The Things Network)/(The Things Stack).
 <p align="justify"> To transfer the Water level data from The Things Network to an InfluxDB databases on the Kenet server as shown on Figure 1, we need to run the *"ttn-kenet.py"* Python Script under assets. The script execution procedure includes.
 - Installing Python.
-- Creation of an environment with the packages needed to run the script (`requirements.txt` under assets).</p>
+- Creation of an environment with the packages needed to run the script ("requirements.txt" under assets).</p>
 
 ### The Things Network
 <p align="justify"> An IoT (Internet of Things) system can be broadly divided into 3 main layers. The first layer is the perception layer which includes sensors and actuators involved in data collection. The second layer is the network layer which is responsible for communication between devices in the system. The network layer includes elements such as gateways and network servers. The last layer is the application layer, where an end user gets to interact with data output.</p>
@@ -95,7 +95,8 @@ In order to check if the installation went well, you can use the InfluxDB client
 
 | ![putty7](/img/putty7.PNG) | 
 |:--:| 
-| *Figure 6: MQTT Page on The Things Stack* |
+| *Figure 7: MQTT Page on The Things Stack* |
+
 
 
 
