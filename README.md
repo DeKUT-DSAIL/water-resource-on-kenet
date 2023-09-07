@@ -36,7 +36,7 @@ Figure 2 shows putty configuration.
 |:--:| 
 | *Figure 2: Putty Configuration* |
 
-After clicking on *open* the user is prompted to accept the access conditions and the terminal appears. At this point, the user has to paste in the password to enable the command line and also to enable root utilization (sudo su). (NB. To paste on putty = Right click). Figure 3 and Figure 4 shows the process.
+<p align="justify">After clicking on *open* the user is prompted to accept the access conditions and the terminal appears. At this point, the user has to paste in the password to enable the command line and also to enable root utilization (sudo su). (NB. To paste on putty = Right click). Figure 3 and Figure 4 shows the process.</p>
 
 | ![putty3](/img/putty3.jpg) | 
 |:--:| 
@@ -79,7 +79,7 @@ In order to check if the installation went well, you can use the InfluxDB client
 <p align="justify">As shown on Figure 6 the InfluxDB client is up and running. The only database present at this point is the Default: "internal" database. To exit the Influx shell type "exit"</p>
 
 ## Data Transfer from TTN (The Things Network)/(The Things Stack).
-<p align="justify"> To transfer the Water level data from The Things Network to an InfluxDB databases on the Kenet server as shown on Figure 1, we need to run the `ttn-kenet.py` Python Script under assets. The script execution procedure includes.
+<p align="justify"> To transfer the Water level data from The Things Network to an InfluxDB databases on the Kenet server as shown on Figure 1, we need to run the *"ttn-kenet.py"* Python Script under assets. The script execution procedure includes.
 - Installing Python.
 - Creation of an environment with the packages needed to run the script (`requirements.txt` under assets).</p>
 
@@ -95,7 +95,7 @@ In order to check if the installation went well, you can use the InfluxDB client
 
 | ![putty7](/img/putty7.PNG) | 
 |:--:| 
-| *Figure 6: Testing the InfluxDB client by running the influx command* |
+| *Figure 6: MQTT Page on The Things Stack* |
 
 
 
