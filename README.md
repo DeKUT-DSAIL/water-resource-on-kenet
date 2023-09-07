@@ -92,7 +92,8 @@ The network server under the network layer is a crucial component in a deploymen
 The Things Network is a free LoRaWAN network server that is open to all. It has popularized the LoRaWAN technology by offering free services to IoT enthusiasts especially during initial tests before professional deployments.
 ### Data Rerouting from TNN 
 
-To transfer data from TTN to another storage service using MQTT, a Data API is utilized. As an MQTT broker, The Things Stack exposes an MQTT to work with streaming events (data from the sensor nodes). Established in 1999, the MQTT is a machine to machine, lightweight, publish/subscribe connectivity protocol for massage queuing service. It is mainly designed for connections with remote locations that have devices with resource constraints such as power or limited network bandwidth such as IoT (Internet of Things). On The Things stack, every application TTS automatically exposes an MQTT endpoint. In order to connect to the MQTT server, an API key that functions as a password is needed. Figure 7 shows the MQTT page on TTN.
+<p> style='text-align: justify;'> To transfer data from TTN to another storage service using MQTT, a Data API is utilized. As an MQTT broker, The Things Stack exposes an MQTT to work with streaming events (data from the sensor nodes). Established in 1999, the MQTT is a machine to machine, lightweight, publish/subscribe connectivity protocol for massage queuing service. It is mainly designed for connections with remote locations that have devices with resource constraints such as power or limited network bandwidth such as IoT (Internet of Things). On The Things stack, every application TTS automatically exposes an MQTT endpoint. In order to connect to the MQTT server, an API key that functions as a password is needed. Figure 7 shows the MQTT page on TTN. </p>
+
 
 | ![putty7](/img/putty7.PNG) | 
 |:--:| 
