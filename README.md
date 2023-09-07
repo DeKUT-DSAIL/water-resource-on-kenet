@@ -12,6 +12,7 @@ InfluxDB is an open-source database for storing time series data. This data can 
 
 - Kenet Vlab access to create a virtual machine (Linux machine) = The access is provided by Kenet after verifying your Vlab access request. Also, a verified user can create a machine that can be accessed by a non-verified user via  **[Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)**.
 - Putty = On your personal computer to access the virtual machine command line (SSH).
+- preferred Linux Distributtion = Ubuntu 16.04.7 LTS
 
 ## Accessing the Kenet Virtual Machine
 
@@ -65,7 +66,19 @@ To install influxdb, run the following commands sequentially
 
 6. `systemctl start influxdb`
 
-In order to check if the installation went well, you can use the client to execute a basic Influxdb query as shown on Figure 6.
+In order to check if the installation went well, you can use the InfluxDB client to execute a basic Influxdb query as shown on Figure 6.
+
+7. `influx`
+
+8. `show databases`
+
+| ![putty6](/img/putty6.PNG) | 
+|:--:| 
+| *Figure 6: Testing the InfluxDB client by running the influx command* |
+
+
+
+
 
 
 
