@@ -147,7 +147,7 @@ To create an environment, run the following commands consecutively.
 
 ### Executing the ttn-kenet.py script.
 
-To run the data transfer code, begin by creating a `ttn-kenet.py` file. Run `touch ttn-kenet.py`, and then `nano ttn-kenet.py`. Copy the contents of `ttn-kenet.py` file in these repo and paste them on to the terminal. Press (cntrl+O) to save, then enter and lastly press (cntrl+x) to exit the terminal. Run `python ttn-kenet.py` to initiate data transfer from TTN. The terminal should be as shown on Figure 10.
+1. To run the data transfer code, begin by creating a `ttn-kenet.py` file. Run `touch ttn-kenet.py`, and then `nano ttn-kenet.py`. Copy the contents of `ttn-kenet.py` file in these repo and paste them on to the terminal. Press (cntrl+O) to save, then enter and lastly press (cntrl+x) to exit the terminal. Run `python ttn-kenet.py` to initiate data transfer from TTN. The terminal should be as shown on Figure 10.
 
 
 
