@@ -109,6 +109,37 @@ In order to check if the installation went well, you can use the InfluxDB client
 |:--:| 
 | *Figure 9: MQTT Python library on the MQTT-Python script* |
 
+### Installing Python 3.8.
+To install Python 3.8.7 in the Kenet instance, run the following commands consecutively.
+
+1. `sudo apt update`
+
+2. `sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev curl`
+
+3. `mkdir python_files`
+
+4. `cd python_files`
+
+5. `curl -O https://www.python.org/ftp/python/3.8.7/Python-3.8.7.tar.xz`
+
+6. `tar -xf Python-3.8.7.tar.xz`
+
+7. `cd Python-3.8.7`
+
+8. `./configure --enable-optimizations`
+
+9. `nproc` (to know the number of cores) for example case 2 server cores
+
+10. `make -j 2` (2 - represents the number of cores)
+
+11. `sudo make altinstall` (installation after building the binaries)
+
+12. `python3.8 --version` (verifying your installation)
+
+
+
+
+
 
 
 
