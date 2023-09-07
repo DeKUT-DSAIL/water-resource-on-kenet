@@ -136,6 +136,18 @@ To install Python 3.8.7 in the Kenet instance, run the following commands consec
 
 12. `python3.8 --version` (verifying your installation)
 
+### Virtual Environment Creation.
+To create an environment, run the following commands consecutively.
+
+1. `python3.8 -m venv venv-kenet1`
+
+2. Activate the environment by running: `source venv-kenet1/bin/activate`
+
+3. To install packages into the environment, begin by creating a `requirements.txt` file. Run `touch requirements.txt` , and then `nano requirements.txt`. Copy the requirements from the text file in these repo and paste them on to the terminal. Press (cntrl+O) to save, then enter and lastly press (cntrl+x) to exit the terminal. Run `pip  install -r requirements.txt` to install the said requirements.
+
+### Executing the ttn-kenet.py script.
+
+To run the data transfer code, begin by creating a `ttn-kenet.py` file. Run `touch ttn-kenet.py`, and then `nano ttn-kenet.py`. Copy the contents of `ttn-kenet.py` file in these repo and paste them on to the terminal. Press (cntrl+O) to save, then enter and lastly press (cntrl+x) to exit the terminal. Run `python ttn-kenet.py` to initiate data transfer from TTN. The terminal should be as shown on Figure 10.
 
 
 
