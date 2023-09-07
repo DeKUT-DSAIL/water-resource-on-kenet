@@ -80,8 +80,9 @@ In order to check if the installation went well, you can use the InfluxDB client
 
 ## 5. Data Transfer from TTN (The Things Network)/(The Things Stack).
 <p align="justify"> To transfer the Water level data from The Things Network to an InfluxDB databases on the Kenet server as shown on Figure 1, we need to run the "ttn-kenet.py" Python Script under assets. The script execution procedure includes.</p>
-- Installing Python.
-- Creation of an environment with the packages needed to run the script ("requirements.txt" under assets).
+
+a. Installing Python.
+b. Creation of an environment with the packages needed to run the script ("requirements.txt" under assets).
 
 ### The Things Network
 <p align="justify"> An IoT (Internet of Things) system can be broadly divided into 3 main layers. The first layer is the perception layer which includes sensors and actuators involved in data collection. The second layer is the network layer which is responsible for communication between devices in the system. The network layer includes elements such as gateways and network servers. The last layer is the application layer, where an end user gets to interact with data output.</p>
