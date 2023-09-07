@@ -79,7 +79,7 @@ In order to check if the installation went well, you can use the InfluxDB client
 <p align="justify">As shown on Figure 6 the InfluxDB client is up and running. The only database present at this point is the Default: "internal" database. To exit the Influx shell type "exit"</p>
 
 ## 5. Data Transfer from TTN (The Things Network)/(The Things Stack).
-<p align="justify"> To transfer the Water level data from The Things Network to an InfluxDB databases on the Kenet server as shown on Figure 1, we need to run the *"ttn-kenet.py"* Python Script under assets. The script execution procedure includes.
+<p align="justify"> To transfer the Water level data from The Things Network to an InfluxDB databases on the Kenet server as shown on Figure 1, we need to run the "ttn-kenet.py" Python Script under assets. The script execution procedure includes.
 - Installing Python.
 - Creation of an environment with the packages needed to run the script ("requirements.txt" under assets).</p>
 
@@ -97,7 +97,16 @@ In order to check if the installation went well, you can use the InfluxDB client
 |:--:| 
 | *Figure 7: MQTT Page on The Things Stack* |
 
+### ttn-kenet.py
+<p align="justify"> The script is meant to  enable the subscription to the applications on TTN, connect to the application uplinks from the sensor nodes, and then publish the data on the Influx database. Figure 8 and 9 shows the utilization of the TTN API key and the Python MQTT library on the MQTT-Python script.</p>
 
+| ![putty9](/img/putty9.PNG) | 
+|:--:| 
+| *Figure 8: TTN API key on the MQTT-Python script* |
+
+| ![putty10](/img/putty10.PNG) | 
+|:--:| 
+| *Figure 9: MQTT Python library on the MQTT-Python script* |
 
 
 
